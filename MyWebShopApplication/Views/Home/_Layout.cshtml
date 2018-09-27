@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title> Website of KhanhNguyen</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <!--import CSS-->
+
+        <link href="~/css/bootstrap.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+        <link href="~/effect/hover.css" rel="stylesheet" />
+        <link href="~/effect/hover-min.css" rel="stylesheet" />
+
+        <link href="~/css/effecttext.css" rel="stylesheet" />
+        <link href="~/css/style.css?version=1" rel="stylesheet" />
+        <link href="~/css/tiltedpage-scroll.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <div id="header">
+                <nav class="navbar navbar-fixed-top navbar-inverse1">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="/Home/Index" class="navbar-brand"><img src="~/images/homesecond.png" /></a>
+                        </div>
+                        <div class="navbar-collapse collpase" id="main-menu">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a class="un" href="/Home/Index">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="un" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="/Product/Product">Coffe</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="index.html">Tea</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="index.html">Milk Tea</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="index.html">Cacao</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="un">Contact</a>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#" class="cart">Cart <span class="glyphicon glyphicon-shopping-cart"></span> </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="signup">Sign up</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="navbar-btn navbar-right bnt_login">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="wallwrapaper"></div>
+                <div class="text-brand"></div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <div class="content-footer">
+                    <div class="colum1">
+                        <h3> Policy</h3>
+                        <li> <a href="#">Delivery policy</a></li>
+                        <li> <a href="#">Transport policy</a></li>
+                    </div>
+                    <div class="colum2">
+                        <h3> Contact</h3>
+                        <li> <a href="#">Phone number: 098.397.5408</a></li>
+                        <li> <a href="#">Email: donkihote2305@gmail.com</a></li>
+                        <li> <a href="#">Address: Linh Trung, Distric Thu Duc TP.HCM</a></li>
+                    </div>
+                    <div class="colum3">
+                        <h3> Rigister</h3>
+                        <input style="email" name="txt_mail" placeholder="abc@gmail.com" />
+                        <button type="submit" name="bnt_register">Rigister</button>
+
+                    </div>
+                </div>
+                <div class="follow-us">
+                    <h3>Folow us</h3>
+                    <a href="#" class="hvr-wobble-vertical"> <img src="~/images/ic_facebook.png" /></a>
+                    <a href="#" class="hvr-wobble-vertical"> <img src="~/images/ic_youtube.png" /></a>
+                    <a href="#" class="hvr-wobble-vertical"> <img src="~/images/ic_twitter.png" /></a>
+                    <a href="#" class="hvr-wobble-vertical"> <img src="~/images/ic_google+.png" /></a>
+                </div>
+                <div class="my-information">
+                    <p>khanhnguyen-corporation © 2005-2018. All rights reserved.</p>
+                </div>
+            </footer>
+
+            <!--Javascript-->
+            <script src="main.js"></script>
+            <script type="text/javascript" src="~/js/jquery-3.1.1.min.js"></script>
+            <script type="text/javascript" src="~/js/jquery-3.3.1.js"></script>
+            <script type="text/javascript" src="~/js/script.js"></script>
+            <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="~/js/jquery.tiltedpage-scroll.js"></script>
+        </div>
+
+    </body>
+    </html>

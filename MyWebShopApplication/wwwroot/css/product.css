@@ -1,0 +1,105 @@
+
+
+
+div.product{
+    width:1000px;
+    display:table;
+    margin:auto;
+    margin-top:50%;
+}
+div.product h3{
+    float:none;
+    width:100%;
+    background:#d3654c;
+    color:black;
+    margin: 0px;
+    line-height:41px;
+    font-weight:normal;
+    font-size:22px;
+    padding-right:20px;
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-left:3%;
+}
+div.product ul,
+div.product ul li{
+    float:left;
+    padding: 1px;
+    margin:1px;
+    list-style:none;
+    margin-right:3%;
+    margin-left:3%;
+}
+    div.product ul {
+        width: 100%;
+        background-color: wheat;
+    }
+div.product ul li{
+    width:25%;
+}
+div.product a{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+div.product a.img{
+    margin-top:10px;
+}
+div.product a.img img{
+    height:170px;
+    width:auto;
+    max-width:100%;
+    border-bottom:#d3654c 5px solid;
+}
+div.product a.name{
+    font-weight:bolder;
+    color:black;
+    font-size:13px;
+    text-decoration:none;
+    margin-top:10px;
+
+}
+div.product a.name:hover {
+    color: #d3654c;
+}
+div.product div {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d3654c;
+    text-indent:10px;
+    margin: 10px 0 10px 0;
+    float:left;
+    width:100%;
+}
+div.product a.cart {
+    border-top: #d3654c 1px solid;
+    background: #f2f2f2 url(~/images/ic_cart.png) 30% 2px no-repeat;
+    line-height: 30px;
+    font-weight: bold;
+    color: #d3654c;
+    text-decoration:none;
+}
+    div.product a.cart:hover {
+        background-color: #d3654c;
+        color:white;
+    }
+    div.product span{
+        position:absolute;
+        left:0px;
+        width:60px;
+        height:60px;
+        line-height:60px;
+        text-align:center;
+        background-color:rgba(255,255,255,0.4);
+        border-radius:30px;
+        font-size:20px;
+        font-weight:bold;
+        margin-top:1%;
+        text-shadow:0 0 3px yellow;
+    }
+    div.product: hover span {
+        background-color: #d3654c;
+    }
+    div.product :hover a.img img{
+        opacity:0.7;
+    }
