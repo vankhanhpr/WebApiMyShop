@@ -31,3 +31,5 @@ E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreap
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Cusstomer.g.cshtml.cs
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Custom\_Layout.g.cshtml.cs
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\Product.g.cshtml.cs
+E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Signup\Signup.g.cshtml.cs
+E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\_Layout.g.cshtml.cs

@@ -1,0 +1,114 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    width: 360px;
+    padding: 10px 0 0;
+    margin: auto;
+}
+
+.formlogin {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 380px;
+    margin: 0 auto 10px;
+    padding: 0px;
+    text-align: center;
+}
+
+.form input {
+    font-family: "proxima_nova_rgregular", sans-serif;
+    font-size: 16px;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 13px 5px 11px 10px;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+    /*-----------button--------*/
+.submit {
+    margin-top: 6px;
+}
+
+.submit {
+    width: 100% !important;
+}
+
+.fg-btn.large, input[type="submit"].fg-btn.large, input[type="button"].fg-btn.large {
+    font-size: 18px;
+    padding: 16px 25px 13px;
+}
+
+.fg-btn.bold, input[type="submit"].fg-btn.bold, input[type="button"].fg-btn.bold {
+    font-family: "proxima_novasemibold", sans-serif;
+}
+
+.fg-btn, input[type="submit"].fg-btn, input[type="button"].fg-btn {
+    font-family: "proxima_nova_rgregular", sans-serif;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    cursor: pointer;
+    text-align: center;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-radius: 5px;
+}
+
+.fg-btn.blue {
+    position: relative;
+    background-color: #1bc7f2;
+    color: white;
+    border-bottom-color: #2477bf;
+}
+
+.fg-btn.inline, .fg-flat-btn.inline {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+/*-------------------*/
+.form button:hover, .form button:active, .form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+

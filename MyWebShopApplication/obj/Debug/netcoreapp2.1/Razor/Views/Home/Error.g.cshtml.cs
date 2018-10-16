@@ -54,7 +54,7 @@ using MyWebShopApplication.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 100, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "def8f9f59d4b4bac90a280207983d6de", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a8e424c33ca43559ca0e0b6fa8a747f", async() => {
                 BeginContext(31, 87, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Error</title>\r\n");
                 EndContext();
@@ -74,7 +74,7 @@ using MyWebShopApplication.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(127, 136, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "07aafbc8d9834157a85974b2478a2ff1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fcf37d8ab4ac4c44adbda532481dd6fe", async() => {
                 BeginContext(133, 123, true);
                 WriteLiteral("\r\n    <hgroup>\r\n        <h1>Error.</h1>\r\n        <h2>An error occurred while processing your request.</h2>\r\n    </hgroup>\r\n");
                 EndContext();
