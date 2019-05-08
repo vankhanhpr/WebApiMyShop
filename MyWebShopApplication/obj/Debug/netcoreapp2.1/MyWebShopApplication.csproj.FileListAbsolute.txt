@@ -26,10 +26,13 @@ E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreap
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\MyWebShopApplication.csproj.CopyComplete
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\MyWebShopApplication.csprojAssemblyReference.cache
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Error.g.cshtml.cs
-E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\_Layout.g.cshtml.cs
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Cusstomer.g.cshtml.cs
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Custom\_Layout.g.cshtml.cs
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Product\Product.g.cshtml.cs
 E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Signup\Signup.g.cshtml.cs
-E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\_Layout.g.cshtml.cs
+E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Manage\Manage.g.cshtml.cs
+E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Account\Account.g.cshtml.cs
+E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Account\User.g.cshtml.cs
+E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\ASPMVC\MyShopDotNetCore\WebApiMyShop\MyWebShopApplication\obj\Debug\netcoreapp2.1\Razor\Views\Home\_Layout.g.cshtml.cs

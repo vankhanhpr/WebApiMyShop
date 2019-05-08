@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title> Website Design></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    @*import css*@
+    <link href="~/plugin/bootstrap.css" rel=" stylesheet" />
+    <link href="~/css/viewheader.css" rel=" stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Cukuin Coffe</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Hỗ trợ</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+    <hr />
+    <div class="col-lg-12" style="position:relative;padding:0">
+        <div class="slideshow-container">
+            <div class="mySlides w3-animate-left ">
+                @*<div class="numbertext">1/3</div>*@
+                <img src="/Assets/img/image-slishow.png" style="width:100%">
+                @*<div class="text">Caption Text</div>*@
+            </div>
+
+            <div class="mySlides w3-animate-left ">
+                @*<div class="numbertext">2/3</div>*@
+                <img src="/Assets/img/image-slishow2.png" style="width:100%">
+                @*<div class="text">Caption Two</div>*@
+            </div>
+
+            <div class="mySlides w3-animate-left ">
+                @*<div class="numbertext">3/3</div>*@
+                <img src="/Assets/img/image-slishow3.jpg" style="width:100%">
+                @*<div class="text">Caption Three</div>*@
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <div class="animation-dot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <style>
+            .w3-animate-left {
+                position: relative;
+                animation: animateleft 1s;
+            }
+        </style>
+
+    </div>
+
+
+    <script src="~/plugin/js/jquery.min.js"></script>
+    <script src="~/plugin/js/bootstrap.min.js"></script>
+    <script src="~/js/tyheader.js"></script>
+    @*<script>
+            var slideIndex = 1;
+            //showSlides(slideIndex);
+
+            //function plusSlides(n) {
+            //    showSlides(slideIndex += n);
+            //}
+
+            //function currentSlide(n) {
+            //    showSlides(slideIndex = n);
+            //}
+
+            //function showSlides(n) {
+            //    var i;
+            //    var slides = document.getElementsByClassName("mySlides");
+            //    var dots = document.getElementsByClassName("dot");
+            //    if (n > slides.length) { slideIndex = 1 }
+            //    if (n < 1) { slideIndex = slides.length }
+
+            //    for (i = 0; i < slides.length; i++) {
+            //        slides[i].style.display = "none";
+            //    }
+
+            //    for (i = 0; i < dots.length; i++) {
+            //        dots[i].className = dots[i].className.replace(" active", "");
+            //    }
+
+            //    slides[slideIndex - 1].style.display = "block";
+            //    dots[slideIndex - 1].className += " active";
+            //    setTimeout(showSlides, 2500);
+            //}
+
+            var myIndex = 0;
+            runSlideShow();
+
+            function runSlideShow() {
+
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(runSlideShow, 2500);
+            }
+
+
+        </script>*@
+
+
+    <script>
+        init();
+        var myIndex = 0;
+        var position = 0;
+
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+
+            //for (i = 0; i < x.length; i++) {
+            //    if (i != myIndex) {
+            //        x[i].style.display = "none";
+            //    }
+            //}
+
+            myIndex++;
+            if (myIndex > x.length - 1) {
+                myIndex = 0
+            }
+            if (myIndex == 0) {
+                position = x.length - 1;
+            }
+            else {
+                position = myIndex - 1;
+            }
+
+            x[myIndex].style.display = "block";
+            x[position].style.display = "none";
+
+            setTimeout(carousel, 2500);
+        }
+        function init() {
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                if (i != myIndex) {
+                    x[i].style.display = "none";
+                }
+            }
+            x[0].style.display = "block";
+        }
+    </script>
+
+
+</body>
+</html>

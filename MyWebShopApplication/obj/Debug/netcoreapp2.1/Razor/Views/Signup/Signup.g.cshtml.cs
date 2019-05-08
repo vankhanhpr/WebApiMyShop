@@ -68,12 +68,12 @@ using MyWebShopApplication.Models;
             WriteLiteral("<!doctype html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(62, 879, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53c62136da1a44619e9036e4f9de368f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e89f29122984d1c8c9e386c0e74185e", async() => {
                 BeginContext(68, 73, true);
                 WriteLiteral("\r\n    \r\n    <title>jQuery UI Dialog - Default functionality</title>\r\n    ");
                 EndContext();
                 BeginContext(141, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a28deddaf9434034b21398fd6b6b0930", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "61f736d2198a4e62ae6a616f76d66b41", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -92,7 +92,7 @@ using MyWebShopApplication.Models;
                 WriteLiteral("\r\n    <link rel=\"stylesheet\" href=\"//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css\">\r\n    <link rel=\"stylesheet\" href=\"/resources/demos/style.css\">\r\n    ");
                 EndContext();
                 BeginContext(353, 45, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8592db62fba4358a6f17cf558481dd7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3af39d2b431842b1a2d430867fae2256", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -110,7 +110,7 @@ using MyWebShopApplication.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(404, 41, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0d7bcad6e11441d8ad7437bdc46cc041", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1f7b55241534e4bb0f6b9497ee09bb5", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -160,7 +160,7 @@ using MyWebShopApplication.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(943, 821, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a31959fee9448fb8c7263a9204fbf88", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c353d8a48ed34e458c1cccc9d2b5eea5", async() => {
                 BeginContext(949, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();
@@ -168,7 +168,7 @@ using MyWebShopApplication.Models;
                 WriteLiteral("    <div id=\"dialog1\" style=\"display:none\">\r\n        <div class=\"login-page\">\r\n            <div class=\"form\">\r\n                ");
                 EndContext();
                 BeginContext(1100, 529, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b61d44c2a5d478ebb892820562badba", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d59f6a49a13a4e22b2a89af7e885c9a6", async() => {
                     BeginContext(1125, 497, true);
                     WriteLiteral(@"
                     <input type=""text"" placeholder=""Username"" />

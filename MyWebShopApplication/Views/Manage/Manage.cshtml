@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewData["Title"] = "manage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title> Website of LV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--Link Css-->
+    <link href="~/css/manage.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="position:relative;margin-top:100px;margin:auto">
+            <div class="col-lg-12">
+                <p class="text-manage-category">Manage Category</p>
+            </div>
+
+
+            <div class="col-lg-12 tab-all-category">
+                <div class="col-lg-4 tab-4-catagory">
+                    <a href="#">
+                        <div class="col-lg-12 tab-manage-use">
+                            <p class="text-title-account">Account</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon_team.png" />
+                            <p class="col-lg-2 text-total-account">120</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon-setting.png" />
+                            <p class="col-lg-3 text-total-account">Setting</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 tab-4-catagory">
+                    <a href="#">
+                        <div class="col-lg-12 tab-manage-use">
+                            <p class="text-title-account">Category Product</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon_category.png" />
+                            <p class="col-lg-2 text-total-account">120</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon-setting.png" />
+                            <p class="col-lg-3 text-total-account">Setting</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 tab-4-catagory">
+                    <a href="#">
+                        <div class="col-lg-12 tab-manage-use">
+                            <p class="text-title-account">Product</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon_product.png" />
+                            <p class="col-lg-2 text-total-account">120</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon-setting.png" />
+                            <p class="col-lg-3 text-total-account">Setting</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-12 tab-all-category">
+                <div class="col-lg-4 tab-4-catagory">
+                    <a href="#">
+                        <div class="col-lg-12 tab-manage-use">
+                            <p class="text-title-account">Small View</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon_team.png" />
+                            <p class="col-lg-2 text-total-account">120</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon-setting.png" />
+                            <p class="col-lg-3 text-total-account">Setting</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 tab-4-catagory">
+                    <a href="#">
+                        <div class="col-lg-12 tab-manage-use">
+                            <p class="text-title-account">Title</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon_team.png" />
+                            <p class="col-lg-2 text-total-account">120</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon-setting.png" />
+                            <p class="col-lg-3 text-total-account">Setting</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 tab-4-catagory">
+                    <a href="#">
+                        <div class="col-lg-12 tab-manage-use">
+                            <p class="text-title-account">Another</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon_team.png" />
+                            <p class="col-lg-2 text-total-account">120</p>
+                            <img class="col-lg-2  image-total-accont" src="~/images/icon-setting.png" />
+                            <p class="col-lg-3 text-total-account">Setting</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-12" style="margin-top:4%;">
+                <p class="text-manage-category">Statisfy of Year</p>
+            </div>
+
+
+            <div class="col-lg-12">
+                <p class="col-lg-1 text-show-year">2017: </p>
+                <p class="col-lg-2 text-show-revenue">123.000.000</p>
+
+                <p class="col-lg-1 text-show-year">2018: </p>
+                <p class="col-lg-2 text-show-revenue">200.000.000</p>
+
+                <p class="col-lg-1 text-show-year"> VND</p>
+            </div>
+
+            <div class="col-lg-12" style="position:relative;margin-bottom:100px;position:relative">
+                <div id="chartdiv" style="width:100%;height:100%"></div>
+            </div>
+
+            <div class="col-lg-12" style="margin-top:4%;">
+                <p class="text-manage-category">Statisfy of Day</p>
+            </div>
+
+            <div class="col-lg-12" style="position:relative;margin-bottom:100px;position:relative">
+                <div id="chart-revenue-day" style="width:100%;height:100%"></div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+    <script rel="stylesheet"  src="~/js/manage.js"></script>
+
+
+
+</body>
+
+</html>
+
