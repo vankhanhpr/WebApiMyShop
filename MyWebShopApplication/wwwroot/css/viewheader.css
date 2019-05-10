@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 ﻿body {
+=======
+﻿
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(~/fonts/glyphicons-halflings-regular.eot);
+}
+
+
+body {
+>>>>>>> e23bac2697026fd5e6c7df038794d98335688787
 }
 .navbar-inverse{
     border-radius:0px;
